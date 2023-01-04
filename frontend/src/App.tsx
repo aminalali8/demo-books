@@ -38,12 +38,12 @@ class App extends Component {
                 <div className="navbar-nav">
                   <li className="nav-item">
                     <Link to={"/books"} className="nav-link">
-                      Books
+                      E-Books
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link to={"/books/add"} className="nav-link">
-                      Add Book
+                      Add E-Book
                     </Link>
                   </li>
                 </div>

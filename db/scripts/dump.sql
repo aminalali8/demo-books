@@ -1,0 +1,23 @@
+-- CreateTable
+CREATE TABLE IF NOT EXISTS book (
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    available BOOLEAN NOT NULL
+);
+
+-- Seed
+INSERT INTO book (title, description, available) VALUES ('Title10', 'Description10', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title20', 'Description20', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title30', 'Description30', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title11', 'Description11', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title21', 'Description21', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title31', 'Description31', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title12', 'Description12', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title22', 'Description22', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title32', 'Description32', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title13', 'Description13', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title23', 'Description23', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title33', 'Description33', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title14', 'Description14', TRUE);
+INSERT INTO book (title, description, available) VALUES ('Title24', 'Description24', FALSE);
+INSERT INTO book (title, description, available) VALUES ('Title34', 'Description34', TRUE);

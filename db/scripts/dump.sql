@@ -1,9 +1,15 @@
+
 -- CreateTable
-CREATE TABLE IF NOT EXISTS book (
-    title TEXT NOT NULL,
-    description TEXT NOT NULL,
-    available BOOLEAN NOT NULL
-);
+create table if not exists books
+(
+    id          serial
+    primary key,
+    title       varchar(255),
+    description varchar(255),
+    available   boolean,
+    "createdAt" timestamp with time zone not null,
+    "updatedAt" timestamp with time zone not null
+                              );
 
 -- Seed
 INSERT INTO book (title, description, available) VALUES ('Title10', 'Description10', TRUE);

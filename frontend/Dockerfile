@@ -14,7 +14,7 @@ WORKDIR /var/www/frontend
 COPY package*.json ./
 
 # - install packages (optimise image build - run just install after copying package.json, we hope these will change rarer as the code, so we can reuse this image layer too)
-RUN npm ci
+RUN npm install
 
 # - copy the rest of the code (except the ones in .dockerignore) (optimise image build - we expect these to change everytime, so keep this as late as possible)
 COPY . .

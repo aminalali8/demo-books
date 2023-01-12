@@ -1,3 +1,3 @@
 #!/bin/bash
 
-psql -U $POSTGRES_USER -d $POSTGRES_DB  -a -f /scripts/db/dump.sql
+psql -U postgres -d postgres  -a -f /scripts/db/dump.sql

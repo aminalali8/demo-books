@@ -1,3 +1,3 @@
 #!/bin/bash
 
-psql -U postgres -d postgres  -a -f /scripts/db/dump.sql
+psql -U postgres -d bunny_books  -a -f /scripts/db/dump.sql
